@@ -1,0 +1,90 @@
+body {
+  width: 100%;
+  max-width: 900px;
+  font-family: "Trebuchet MS", Sans;
+  font-size: 1em;
+  margin: auto;
+  padding: 15px;
+  line-height: 1.5em;
+  background: lightgrey;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+#doc-container {
+  padding: 15px;
+  border: 4px solid rgba(255, 0, 0, 0.5);
+  border-radius: 5px;
+  background: white;
+  opacity: 0;
+  margin-bottom: 15px;
+}
+
+#progress-container-2 {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: lightgrey;
+}
+
+#progress-container-1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#progress {
+  width: 60%;
+  max-width: 250px;
+  height: 8px;
+  margin: 5px;
+  background: white;
+}
+
+h1 {
+  line-height: 100%;
+}
+
+img {
+  border: 5px solid white;
+  height: auto;
+}
+
+#image-and-caption > span {
+  font-size: 80%;
+  color: grey;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: limegreen;
+}
